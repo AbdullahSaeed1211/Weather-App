@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+  }
+.innerSec{
+    margin: 3% 20%;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+nav{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Hero.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    align-items: center;
+    
+}
+nav li a {
+    color: white;
+    text-decoration: white;
+}
+.hero-text{
+    margin: 10% 15%;
+}
+.heroBig,.cardTitle{
+    font-weight: bold;
+}
+#cards-section,#Popular-cities{
+    padding-top: 3%;
+}
+
+.searchBar:hover{
+    transform: scale(1.01);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.hero-text:hover{
+    transform: scale(1.05);
+}
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
